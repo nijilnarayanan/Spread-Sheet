@@ -1,0 +1,18 @@
+.cells {
+    margin-top: 56px;
+    border-collapse: collapse;
+}
+
+input {
+    border: none;
+    min-height: 21px;
+}
+
+input:focus {
+    border: 1.5px solid #1a73e8;
+    min-height: 21px;
+}
+
+.td {
+    border: 1px solid rgba(0,0,0,.2);
+}

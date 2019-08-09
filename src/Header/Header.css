@@ -1,8 +1,32 @@
 .header {
     top: 0;
     left: 0;
-    height: 56px;
+    height: 72px;
     width: 100%;
-    background-color: #207245;
     position: fixed;
+    display: flex;
+}
+.Logo{
+    padding: 8px 10px 0;
+}
+
+.name-and-options{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.options{
+    font-size: 14px;
+    color:#000;
+}
+
+.spreasheet-name{
+    color:#555;
+}
+
+span{
+    margin-right: 16px;
 }

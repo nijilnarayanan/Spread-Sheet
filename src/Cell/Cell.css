@@ -1,16 +1,18 @@
 .cells {
-    margin-top: 56px;
+    margin-top: 72px;
     border-collapse: collapse;
 }
 
 input {
     border: none;
-    min-height: 21px;
+    min-height: 18px;
+    min-width: 120px;
 }
 
 input:focus {
     border: 1.5px solid #1a73e8;
-    min-height: 21px;
+    min-height: 18px;
+    min-width: 120px;
 }
 
 .td {
